@@ -15,3 +15,7 @@
 coverage/
 site/
 node_modules/
+jspsych-6.1.0
+jspsych-6.3.1
+jspsych-7.2.3
+jspsych-8.0.2

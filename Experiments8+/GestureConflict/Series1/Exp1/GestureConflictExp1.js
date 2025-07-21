@@ -47,9 +47,9 @@ const PRMS = {
 };
 
 // 2 versions (thumb gestures version 1 vs. head gestures version 2)
-const VERSION = Number(jsPsych.data.urlVariables().version); // version is provided in the url
+// const VERSION = Number(jsPsych.data.urlVariables().version); // version is provided in the url
 // or set explicitly if testing
-// const VERSION = 1;
+const VERSION = 1;
 let gesture_type;
 if (VERSION === 1) {
     jsPsych.data.addProperties({ version: VERSION, gesture_type: "Thumb" });
